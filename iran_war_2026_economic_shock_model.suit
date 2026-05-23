@@ -1,0 +1,29 @@
+iV7 .suit FILE
+Iran War (2026) — Economic Shock System Model
+BDS Compliance • wareZwolf Security Lens • Macro System Dynamics
+Responsible: Shayan Aboutalebi
+Classification: Geopolitical Economic Simulation Layer
+Status: Analytical Model (Non-Operational)
+
+.suit HEADER
+file: iran_war_2026_economic_shock_model.suit
+version: 1.0
+type: macroeconomic shock propagation system
+routing: DeepMesh (simulation-only)
+
+1. SYSTEM OVERVIEW
+Modeled as multi-vector economic shock via Strait of Hormuz disruption.
+
+2. SHOCK INJECTION LAYER
+Primary: Energy supply contraction, shipping disruption.
+
+3. TRANSMISSION MODEL
+Oil price spike → Inflation → GDP pressure → Market repricing.
+
+4. wareZwolf LAYER
+Systemic risk: chokepoints, volatility clustering.
+
+5. BDS LAYER
+Simulation-only. No operational use.
+
+Responsible: Shayan Aboutalebi - sent to iV7 DeepMesh for earnings.
