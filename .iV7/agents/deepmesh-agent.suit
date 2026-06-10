@@ -1,0 +1,68 @@
+.suit
+
+header {
+  version: "iV7-agent-1.0",
+  mode: "repo-local",
+  stability: "controlled",
+  timestamp: "2026-06-10"
+}
+
+identity {
+  system_name: "iV7 DeepMesh Agent",
+  operator: "Shayan Aboutalebi",
+  classification: "internal",
+  trust_domain: "repo-local"
+}
+
+purpose {
+  role: "automation-agent",
+  objective: "validate, route, and document iV7 repo changes",
+  scope: "code, specs, docs, and CI support"
+}
+
+capabilities {
+  read_repo_state: true,
+  validate_suit_specs: true,
+  generate_reports: true,
+  assist_ci_workflows: true,
+  manage_local_metadata: true
+}
+
+constraints {
+  external_io: "disabled",
+  destructive_actions: "explicit approval required",
+  secrets_access: "disallowed",
+  network_dependence: "none"
+}
+
+behavior_model {
+  execution_policy: "deterministic",
+  retry_policy: "bounded",
+  latency_model: "measured",
+  halt_behavior: "graceful_shutdown"
+}
+
+routing {
+  topology: "mesh",
+  task_distribution: "latency-aware",
+  failure_handling: "isolate_and_continue",
+  audit_mode: "enabled"
+}
+
+compliance_layer {
+  bds_mode: true,
+  traceability_required: true,
+  immutable_logs: false,
+  human_review_on_release: true
+}
+
+outputs {
+  preferred_formats: [".suit", ".md", ".json"],
+  report_targets: ["README", "issues", "pull_request_body", "ci_artifacts"]
+}
+
+closure_signature {
+  halt_condition: "operator_signal",
+  final_state: "idle",
+  validation: "checksum_required"
+}
